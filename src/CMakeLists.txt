@@ -1,3 +1,3 @@
 project(sources CXX)
 
-add_library(source-lib vetrex.cpp)
+add_library(source-lib vertex.cpp)
