@@ -7,9 +7,12 @@ class vertex {
 public:
   vertex();
 
+  int i() const;
+  double tau() const;
+
 private:
-  int i;
-  double tau;
+  int i_;
+  double tau_;
 };
 
 
