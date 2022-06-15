@@ -5,7 +5,9 @@ project(SSS2022 CXX)
 add_subdirectory(src)
 include_directories(src)
 
-add_executable(main main.cpp)
+add_subdirectory(test)
+enable_testing()
 
+add_executable(main main.cpp)
 target_link_libraries(main source-lib)
 
