@@ -11,8 +11,8 @@ public:
   double tau() const;
 
 private:
-  int i_;
-  double tau_;
+  int _i;
+  double _tau;
 };
 
 

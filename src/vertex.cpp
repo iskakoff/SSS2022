@@ -7,9 +7,9 @@
 vertex::vertex() {}
 
 int vertex::i() const {
-  return i_;
+  return _i;
 }
 
 double vertex::tau() const {
-  return tau_;
+  return _tau;
 }
