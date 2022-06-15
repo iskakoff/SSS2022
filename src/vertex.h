@@ -6,6 +6,10 @@ class vertex {
 
 public:
   vertex();
+
+private:
+  int i;
+  double tau;
 };
 
 
