@@ -8,8 +8,8 @@ public:
   vertex();
 
 private:
-  int i;
-  double tau;
+  int _i;
+  double _tau;
 };
 
 
